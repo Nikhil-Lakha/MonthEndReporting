@@ -1,0 +1,28 @@
+name: Extract workbook for analysis
+
+on:
+  push:
+    branches:
+      - chatgpt-extract-august
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install openpyxl
+      - run: python tools/extract_workbook.py
+      - name: Commit extracted CSV files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add extracted
+          git diff --cached --quiet || git commit -m "Extract workbook sheets for analysis"
+          git push
