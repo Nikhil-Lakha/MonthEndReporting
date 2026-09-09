@@ -1,0 +1,41 @@
+﻿Error Name,Last Month,2 Month Ago
+subscription failed due to insufficient funds.,46688,51722
+magento catalogue error,31393,805
+cvm buynow reservation failure,14427,8956
+payment failed[business error]: due to user cancelled payment request,13225,0
+payment failed. due to trade pay codes,7330,15114
+payment failed[business error]: due to trade pay codes,4010,0
+magento buynow add failure,3823,10
+whoops something went wrong: 500,3277,3828
+unsubscription failed. due to network error,2359,4373
+failed to copy voucher code,2183,1901
+cvm advance reservation failure,1714,3473
+"connection lost, please try again: failed to fetch",1519,2246
+cvm history error,1512,1134
+fs auth error,1354,1078
+"connection lost, please try again: cannot destructure property 'email' of 'undefined' as it is undefined.",1347,1170
+service unavailable now. please try again.,1271,15580
+"connection lost, please try again: load failed",556,733
+failed to copy voucher pin,539,480
+whoops something went wrong: 400,334,213
+error occurred while processing your payment,249,796
+payment failed. due to unexpected recurring payment response code,233,297
+something went wrong. please try again later.,181,281
+miniapp authcode error,154,123
+payment failed[business error]: due to unexpected recurring payment response code,144,0
+please enter a valid email address,87,217
+payment failed. due to unexpected result code,80,261
+"connection lost, please try again: cannot destructure property 'email' from null or undefined value",57,46
+payment failed[business error]: due to unexpected result code,56,0
+whoops something went wrong: 502,41,6
+whoops something went wrong: 404,30,5
+"connection lost, please try again: right side of assignment cannot be destructured",28,36
+change card miniapp error,9,13
+early repayment error,8,2
+"whoops, something went wrong",7,1
+whoops something went wrong: 520,6,11
+whoops something went wrong: 424,5,17
+change card network error,1,15
+whoops something went wrong: 504,1,3
+magento advance add failure,1,0
+"connection lost, please try again: unexpected end of json input",0,2
